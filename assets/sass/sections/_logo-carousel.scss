@@ -1,0 +1,25 @@
+.logo-carousel-section {
+    @extend %section-padding;
+    background: $logo-carousel-section-background;
+}
+
+.logo-carousel-header {
+    font-family: $roboto-regular;
+    text-align: center;
+    margin-bottom: 60px;
+
+    h2 {
+        color: $logo-carousel-header-h2;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+
+    p {
+        color: $logo-carousel-header-p;
+    }
+
+    .header-divider {
+        @extend %horizontal-line;
+        width: 25%;
+    }
+}

@@ -1,0 +1,34 @@
+.cta {
+  background-size: cover !important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+  @extend %section-padding;
+  @media(max-width: 576px){
+    padding: 40px 20px;
+  }
+
+  .cta-title {
+    color: $white;
+    margin-top: 0;
+  }
+  .cta-description {
+    color: $white;
+  }
+  .cta-btn {
+    font-family: $roboto-regular;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    color:$white;
+    background-color: $cta-btn-background;
+    border-radius: $border-radius;
+    @include transition(0.3s);
+    border:none;
+    margin-top: 25px;
+    cursor: pointer;
+    &:hover {
+      background-color: $cta-btn-hover-background;
+    }
+  }
+}

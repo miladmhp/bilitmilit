@@ -1,0 +1,73 @@
+.owl-theme {
+    &.with-dots {
+        .owl-nav {
+            .owl-next,
+            .owl-prev {
+                margin-top: -38px;
+            }
+        }
+    }
+    .owl-nav {
+        .owl-next,
+        .owl-prev {
+            width: 35px;
+            height: 35px;
+            background-color: $black-02;
+            position: absolute;
+            top: 50%;
+            margin-top: -17px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include transition(0.4s);
+
+            &:hover {
+                background: $black-03;
+
+                i {
+                    color: $white;
+                }
+            }
+
+            i {
+                color: $white-07;
+            }
+        }
+
+        .owl-prev {
+            left: 0;
+        }
+
+        .owl-next {
+            right: 0;
+        }
+    }
+
+    .owl-dots {
+        text-align: center;
+        margin-top: 30px;
+
+        .owl-dot {
+            display: inline-block;
+            zoom: 1;
+
+            span {
+                width: 10px;
+                height: 10px;
+                margin: 5px 7px;
+                background: $nav-dots-background;
+                display: block;
+                -webkit-backface-visibility: visible;
+                transition: opacity 0.2s ease;
+                border-radius: 30px;
+            }
+        }
+
+        .active {
+            span {
+                background: $nav-dot-active-background;
+            }
+        }
+    }
+}

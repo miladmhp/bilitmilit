@@ -1,0 +1,12 @@
+{
+  "name": "bilitmilit",
+  "version": "1.0.0",
+  "description": "bilitmilit project for reserve tickets",
+  "main": "../index.html",
+  "repository":"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "milad hp",
+  "license": "ISC"
+}

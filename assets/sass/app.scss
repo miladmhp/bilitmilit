@@ -1,0 +1,23 @@
+// Sass
+@import "./global/reset";
+@import "./global/variables";
+@import "./global/placeholders";
+@import "./global/mixins";
+@import "./global/functions";
+@import "./global/owl";
+
+// Included Libraries
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/font-awesome/scss/font-awesome";
+@import "../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../node_modules/animsition/dist/css/animsition.min.css";
+
+// General Styles
+@import "./general/fonts";
+
+// Sections
+@import "./sections/*";

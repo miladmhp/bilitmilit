@@ -1,0 +1,79 @@
+// Overrides
+$body-background:                      #eeeeee;
+$fa-font-path: "../fonts/fontawesome";
+$roboto-regular : "RobotoRegular";
+$roboto-light : "RobotoLight";
+$border-radius: 3px;
+
+//main-colors
+
+$white:                                 #ffffff;
+$white-01:                              rgba(255,255,255,.1);
+$white-02:                              rgba(255,255,255,.2);
+$white-03:                              rgba(255,255,255,.3);
+$white-04:                              rgba(255,255,255,.4);
+$white-05:                              rgba(255,255,255,.5);
+$white-06:                              rgba(255,255,255,.6);
+$white-07:                              rgba(255,255,255,.7);
+$white-08:                              rgba(255,255,255,.8);
+$white-09:                              rgba(255,255,255,.9);
+$black:                                 #000000;
+$black-01:                              rgba(0,0,0,.1);
+$black-02:                              rgba(0,0,0,.2);
+$black-03:                              rgba(0,0,0,.3);
+$black-04:                              rgba(0,0,0,.4);
+$black-05:                              rgba(0,0,0,.5);
+$black-06:                              rgba(0,0,0,.6);
+$black-07:                              rgba(0,0,0,.7);
+$black-08:                              rgba(0,0,0,.8);
+$black-09:                              rgba(0,0,0,.9);
+
+
+// Preloader
+$preloader-background:                  #303030;
+
+// Navbar
+$nav-background:                        #f2f2f2;
+$nav-dropdown-background:               #333333;
+
+$nav-link:                              #666666;
+$nav-link-hover:                        #333333;
+$nav-link-active:                       #333333;
+
+$nav-dropdown-link:                     #f2f2f2;
+$nav-dropdown-link-hover:               #666666;
+$nav-dropdown-link-active:              #666666;
+
+$nav-button-background:                 #333333;
+$nav-button-border:                     #333333;
+$nav-button-text:                       #f2f2f2;
+
+$nav-button-background-hover:           #f2f2f2;
+$nav-button-border-hover:               #333333;
+$nav-button-text-hover:                 #333333;
+
+// Logo-carousel
+$logo-carousel-section-background:      #fafafa;
+$nav-dots-background:                   #D6D6D6;
+$nav-dot-active-background:             #869791;
+$logo-carousel-header-h2:               #555555;
+$logo-carousel-header-p:                #888888;
+
+// Footer
+$footer-background:                     #333333;
+$footer-text-color:                     #eeeeee;
+$footer-col-title:                      #ffffff;
+$footer-link-color:                     $white-06;
+$footer-link-hover-color:               $white-09;
+$footer-mailchimp-btn-color:            #f57f20;
+$footer-mailchimp-btn-hover-color:      #ff962d;
+
+// Google Maps
+$map-height:                            450px;
+
+// Call To Action
+$cta-btn-background:                    #f57f20;
+$cta-btn-hover-background:              #ff962d;
+
+// Flexible Content
+$flexible-section-background:           #fafafa;

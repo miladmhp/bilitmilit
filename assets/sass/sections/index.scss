@@ -1,0 +1,28 @@
+body{
+    margin: 100px 0;
+}
+.sections-lists {
+    padding: 50px;
+    font-family: $roboto-regular;
+    background: #007fb3;
+    border-radius: 5px;
+    .section-item {
+        margin-top: 30px;
+        ul{
+            list-style: none;
+        }
+
+        h3 {
+            color: #cacaca;
+        }
+
+        a {
+            color: #ccc;
+            text-decoration: none;
+            @include transition(0.3s) ;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
